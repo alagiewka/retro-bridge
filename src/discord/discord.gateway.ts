@@ -6,7 +6,7 @@ import {
 import { Logger } from '../common/logger';
 import { DiscordJsAdapter } from './discord-js.adapter';
 import { Injectable } from '@nestjs/common';
-import {ICommand, ICommandResult} from '../common/command.interface';
+import { ICommand, ICommandResult } from '../common/command.interface';
 
 @Injectable()
 export class DiscordGateway implements IMessageSource, IMessageObserver {
